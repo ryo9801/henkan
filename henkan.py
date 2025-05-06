@@ -46,6 +46,8 @@ def henkan_10to16(a):
     l1 = l1 + str(l[i])
   return l1
 def henkan_16to2(a):
+  h = ["a","d","c","d","e","f"]
+  h1 = [i for i in range(5)]
   d=0
   c=0
   for i in range(len(str(a)),0,-1):
@@ -54,6 +56,7 @@ def henkan_16to2(a):
   c =henkan_10to2(c)
   return c
 def henkan_16to10(a):
+  h = ["a","d","c","d","e","f"]
   d=0
   c=0
   for i in range(len(str(a)),0,-1):
